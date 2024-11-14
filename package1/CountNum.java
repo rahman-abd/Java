@@ -2,15 +2,13 @@ package package1;
 
 public class CountNum {
     public static void main(String[] args) {
-       int n=652378987;
-       int count=0;
-       while (n>0) {
-        int rem=n%10;
-        if (rem==8) {
+        int n = 652378987;
+        int count = 0;
+        while (n > 0) {
+            n = n / 10;
             count++;
+
         }
-        n=n/10;
-       }
-       System.out.println(count);
-    }    
+        System.out.println(count);
+    }
 }
