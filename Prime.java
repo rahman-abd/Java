@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Prime {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
+        s.close();
+
         System.out.print("Enter the value: ");
         int h=s.nextInt();
         int sum = 0;

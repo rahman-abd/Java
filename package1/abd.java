@@ -6,6 +6,8 @@ public class abd {
     public static void main(String[] args)
     {
         Scanner s= new Scanner(System.in);
+        s.close();
+
         System.out.print("enter 1st number:");
         int a=s.nextInt();
         System.out.print("enter 2nd number:");
