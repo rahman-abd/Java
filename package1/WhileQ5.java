@@ -8,10 +8,10 @@ public class WhileQ5 {
         System.out.print("Enter sum of odd num till u want: ");
         int end=s.nextInt();
         int st=1;
-        int sum=0;
+        int sum=1;
         while (st<=end) {
             if (st%2!=0) {
-                sum=st+sum;
+                sum=st*sum;
                 
             }
 

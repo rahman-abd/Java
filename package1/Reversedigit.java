@@ -9,7 +9,7 @@ public class Reversedigit {
         System.out.print("Enter num: ");
         int a=s.nextInt();
         System.out.print("ans: ");
-        while (a > -1) {
+        while (a >0) {
             System.out.print(a);
            
             a--;
