@@ -8,14 +8,14 @@ public class Amstrong {
         System.out.println("Enter the number: ");
         int num=s.nextInt();
         int num1=num;
-        // int num2=num;
+        int num2=num;
         int dig=0;
         s.close();
-        while (num1>0) {
-            num1=num1/10;
+        while (num>0) {
+            num=num/10;
             dig++;
         }
-        num1=num;
+        // num1=num;
         int sum=0;
         while (num1>0) {
             int rem=num1%10;
@@ -23,7 +23,7 @@ public class Amstrong {
             num1/=10;
             
         }
-        if (num==sum) {
+        if (num2==sum) {
             System.out.println("Amstrong");
         }else{
             System.out.println("not");
