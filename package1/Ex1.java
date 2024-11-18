@@ -9,11 +9,10 @@ public class Ex1 {
         int num=s.nextInt();
         s.close();
         int ans=0;
-        while (num>0) {
-            int rem= num%10;
-            ans=ans*10+rem;
+        while (num>0 ){
+            int rem=num%10;
+            ans= ans*10+rem;
             num/=10;
-            
         }
         System.out.println("ans: "+ans);
     }
