@@ -7,7 +7,7 @@ public class Ex7 {
         Scanner s = new Scanner(System.in);
         int ans = 0;
         boolean k = true;
-        do {
+        while (k){
             System.out.println("Enter the operator: ");
             char op = s.next().trim().charAt(0);
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
@@ -35,13 +35,14 @@ public class Ex7 {
                 System.out.println(ans);
 
             } else if (op == 'x' || op == 'X') {
+                System.out.println("exit");
 
                 k = false;
             } else {
                 System.out.println("invalid");
             }
 
-        } while (k);
+        }
 
         s.close();
     }

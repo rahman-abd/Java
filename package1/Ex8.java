@@ -7,17 +7,13 @@ public class Ex8 {
         Scanner s = new Scanner(System.in);
 
         System.out.print("Enter the fruit : ");
-        enum fruit{
-            apple,orange;
-        }
-        String a=s.nextLine();
-        fruit f= fruit.valueOf(a);
+        String f= s.nextLine();
         s.close();
 
         switch (f) {
 
-            case apple,orange -> System.out.print(f+" is "+"red");
-            //case orange -> System.out.print(f+" is "+"orange");
+            case "apple" -> System.out.print(f+" is "+"red");
+            case "orange" -> System.out.print(f+" is "+"orange");
             default -> System.out.print("not valid fruit try again!!!");
 
         }
