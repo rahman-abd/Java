@@ -1,13 +1,15 @@
+package package2;
 import java.util.Scanner;
 
 public class Prime {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        s.close();
+    
 
         System.out.print("Enter the value: ");
         int h=s.nextInt();
         int sum = 0;
+        s.close();
 
         for (int i = 1; i <= h; i++) {
             if (isPrime(i)) {   

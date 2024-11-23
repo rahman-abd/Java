@@ -1,3 +1,4 @@
+package package2;
 import java.util.*;
 public class rahman{
     public static void main(String[] args) {

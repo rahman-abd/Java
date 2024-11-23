@@ -4,7 +4,11 @@ public class FunEx {
     public static void main(String[] args) {
         Sum d =new Sum();
         int ans= d.sum();
-        System.out.println("ans: "+ans);
+        System.out.println(ans);
+    }}
+    
+    
+    
     //}
     
 
@@ -19,4 +23,3 @@ public class FunEx {
         System.out.println("the sum is:  "+sum);
 
     }*/
-}}
