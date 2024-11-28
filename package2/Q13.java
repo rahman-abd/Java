@@ -7,7 +7,12 @@ public class Q13 {
         System.out.println("Enter the side length of square: ");
         double l=s.nextDouble();
         s.close();
+        double area=areafun(l);
+        System.out.println("ans: "+(int)area);
+    }
+        static double areafun(double l)
+        {
         double area=l*l;
-        System.out.println("ans: "+area);
+        return area;
     }
 }

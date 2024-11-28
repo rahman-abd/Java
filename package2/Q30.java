@@ -25,5 +25,12 @@ public class Q30 {
         }
         System.out.println("max: "+max);
     }
+    // if (a>b&&a>c) {
+    //     System.out.println("a is max");
+    // }else if (b>c) {
+    //     System.out.println("b is max");
+    // }else{
+    //     System.out.println("c is max");
+    // }
 }
 }

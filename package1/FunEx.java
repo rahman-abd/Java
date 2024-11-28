@@ -1,11 +1,30 @@
 package package1;
 
-public class FunEx {
+public class FunEx extends Sum {
     public static void main(String[] args) {
         Sum d =new Sum();
-        int ans= d.sum();
+        int ans=d.sum();
         System.out.println(ans);
     }}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
