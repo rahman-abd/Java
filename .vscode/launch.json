@@ -4,8 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-        
+        {
+            "type": "java",
+            "name": "ex",
+            "request": "launch",
+            "mainClass": "Array.ex",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "single",
+            "request": "launch",
+            "mainClass": "OOPS.inheritance.single",
+            "projectName": "Java_a7c07b7c"
+        },
         {
             "type": "java",
             "name": "Current File",

@@ -1,18 +1,40 @@
 public class Fibo {
 
     public static void main(String[] args) {
-        
+        System.out.println(Roman("XX"));
     }
 
-    static int fibonacci(int n) {
-        if (n <= 1)
-            return n;
-        int a = 0, b = 1;
-        for (int i = 2; i <= n; i++) {
-            int temp = a + b;
-            a = b;
-            b = temp;
+    static int Roman(String s) {
+        int ans = 0, num = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            switch (s.charAt(i)) {
+                case 'I':
+                    num = 1;
+                    break;
+                case 'V':
+                    num = 5;
+                    break;
+                case 'X':
+                    num = 10;
+                    break;
+                case 'L':
+                    num = 50;
+                    break;
+                case 'C':
+                    num = 100;
+                    break;
+                case 'D':
+                    num = 500;
+                    break;
+                case 'M':
+                    num = 1000;
+                    break;
+            }
+            if (4 * num < ans)
+                ans -= num;
+            else
+                ans += num;
         }
-        return b;
+        return ans;
     }
 }
