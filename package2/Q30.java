@@ -12,10 +12,14 @@ public class Q30 {
         int max=Math.max(a,(Math.max(c, b)));
         if(a!=b&&b!=c&&c!=a){
             System.out.println("max: "+max);
-        }else{
-         if(a==b&&b==a&&c==a){
+            return;
+        }else if(a==b&&b==a&&c==a){
+        // if(a==b&&b==a&&c==a){
              System.out.println("all value are same");
-        }else if (a==b) {
+        }else{
+        
+        
+         if (a==b) {
             System.out.println("a value and b value is same");
             
         }else if(b==c){
@@ -23,6 +27,7 @@ public class Q30 {
         }else{
             System.out.println("c and a same");
         }
+    }
         System.out.println("max: "+max);
     }
     // if (a>b&&a>c) {
@@ -33,4 +38,4 @@ public class Q30 {
     //     System.out.println("c is max");
     // }
 }
-}
+

@@ -2,21 +2,20 @@ package Array;
 
 public class Minvalue {
     public static void main(String[] args) {
-        int[] arr={44, 55 ,66,34,244,22};
-        // System.out.println(Min(arr));
-        Min(arr);
-        
+        int[]arr ={3,4,6,2,8,9};
+        int ans=Min(arr);
+        System.out.println(ans);
     }
-    static void Min(int[] arr){
-        int minVal=arr[0];
-        for (int i = 0; i < arr.length; i++) {
-                if (minVal>arr[i]) {
-                    minVal=arr[i];
-                 
+    static int Min(int[] num){
+        int minVal=num[0];
+        // if (num.length==0) {
+        //     return -1;
+        // }
+        for (int i = 0; i < num.length;i++) {
+            if (num[i]<minVal) {
+                minVal=num[i];
             }
         }
-        System.out.println(minVal);
-
-        
+        return minVal;
     }
 }

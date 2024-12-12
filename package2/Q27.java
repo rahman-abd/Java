@@ -11,11 +11,11 @@ public class Q27 {
         s.close();
         System.out.println("before swap");
         System.out.println("a = "+a+" b ="+b);
-        int temp=a;
-        a=b;
-        b=temp;
+        // int temp=a;
+        // a=b;
+        // b=temp;
         System.out.println("after swap");
-        System.out.println("a = "+a+" b ="+b);
+        System.out.println("a = "+b+" b ="+a);
     }
     
 }

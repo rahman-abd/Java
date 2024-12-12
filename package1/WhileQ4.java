@@ -8,11 +8,11 @@ public class WhileQ4 {
         System.out.println("Enter num to sum of before all even numbers: ");
         int num=s.nextInt();
         int st=1;
-        int sum=1;
+        int sum=0;
         s.close();
         while (st<=num) {
             if (st%2==0) {
-                sum*=st;
+                sum+=st;
                 
             }
             

@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Patt",
+            "request": "launch",
+            "mainClass": "package2.Patt",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Findinrange",
+            "request": "launch",
+            "mainClass": "Findinrange",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Pivot",
+            "request": "launch",
+            "mainClass": "Pivot",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "FindHowManyTimeRotate",
+            "request": "launch",
+            "mainClass": "FindHowManyTimeRotate",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "TH",
+            "request": "launch",
+            "mainClass": "Threads.TH",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TrainTicketBooking.Main",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Ex6",
+            "request": "launch",
+            "mainClass": "Ex6",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Ex5",
+            "request": "launch",
+            "mainClass": "Ex5",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "BsQ2",
+            "request": "launch",
+            "mainClass": "Array.BsQ2",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "BsQ1",
+            "request": "launch",
+            "mainClass": "Array.BsQ1",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Q30",
+            "request": "launch",
+            "mainClass": "package2.Q30",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Q27",
+            "request": "launch",
+            "mainClass": "package2.Q27",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
             "name": "ex",
             "request": "launch",
             "mainClass": "Array.ex",

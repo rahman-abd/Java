@@ -8,7 +8,7 @@ public class WhileQ1 {
         int a=s.nextInt();
         int f=1;
         while (f<=a) {
-            System.out.print(f+" ");
+            System.out.print(1+" ");
             f++;
             
         }
