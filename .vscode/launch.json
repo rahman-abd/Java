@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "Practice_rough.RemoveDuplicate",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
+            "name": "Sortandrotate",
+            "request": "launch",
+            "mainClass": "Practice_rough.Sortandrotate",
+            "projectName": "Java_a7c07b7c"
+        },
+        {
+            "type": "java",
             "name": "Patt",
             "request": "launch",
             "mainClass": "package2.Patt",
