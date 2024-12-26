@@ -2,7 +2,7 @@ package Practice_rough;
 
 public class SecLarge {
     public static void main(String[] args) {
-        int[]arr={12, 35,35, 1, 10, 34, 1};
+        int[]arr={1,2,5,3,4};
         int ans=Large(arr);
         System.out.println(ans);
     }
@@ -11,19 +11,17 @@ public class SecLarge {
         int secLarge=0;
         for(int num:arr ){
             if(num>large){
-                large=num;
+            secLarge=large;
+            large=num;
             }
-            if(num==large){
-              continue;  
-            }else if(num>secLarge){
-               secLarge=num; 
-             }
+            if(num<large&&secLarge<num){
+            secLarge=num;
+            }
+           
         }
-        if (secLarge==0) {
-            return -1;
-        }
-       // return secLarge;
-        return large;
+         //return secLarge;
+    return large;
     }
-    }
+}
+
 

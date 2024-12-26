@@ -22,10 +22,10 @@ public class Fibo {
                     num = 50;
                     break;
                 case 'C':
-                    num = 100;
+                    num = 100; 
                     break;
                 case 'D':
-                    num = 500;
+                    num = 500; 
                     break;
                 case 'M':
                     num = 1000;

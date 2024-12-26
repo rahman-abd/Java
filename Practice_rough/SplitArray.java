@@ -3,7 +3,7 @@ package Practice_rough;
 public class SplitArray {
     public static void main(String[] args) {
         int[] arr = { 7, 2, 5, 10, 8 };
-        int k = 6;
+        int k = 2;
         int ans = splitans(arr, k);
         if (ans==-1) {
             System.out.println("not possible of divid sub arrays ");
@@ -54,5 +54,6 @@ public class SplitArray {
         return partition;
 
     }
+    
 
 }
